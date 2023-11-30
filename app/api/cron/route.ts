@@ -6,7 +6,7 @@ import { getEmailNotifType } from "@/lib/utils";
 import { sendEmail, generateEmailBody } from "@/lib/nodemailer";
 import { NextResponse } from "next/server";
 
-export const maxDuration = 10;
+export const maxDuration = 9;
 export const dynamic = 'force-dynamic'
 export const revalidate = 0;
 
