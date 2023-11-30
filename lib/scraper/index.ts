@@ -79,7 +79,7 @@ export async function scrapeAmazonProduct(url: string) {
         }
 
         return data;
-
+        console.log(data);
     } catch (error: any) {
         throw new Error(`Failed to scrape product: ${error.message}`)
     }
